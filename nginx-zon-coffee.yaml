@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
       - name: nginx-zon-coffee
-        image: jatayu99/zon-coffee:latest # Nginx container image
+        image: learndevops16/webappb100:latest # Nginx container image
         ports:
         - containerPort: 80
 ---
